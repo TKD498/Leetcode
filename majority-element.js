@@ -16,7 +16,6 @@ var majorityElement = function (nums) {
   let majorityNumber = 0;
   let highestCount = 0;
   for (const element in numbersCount) {
-    console.log(numbersCount[element]);
     if (numbersCount[element] > highestCount) {
       highestCount = numbersCount[element];
       majorityNumber = element;
